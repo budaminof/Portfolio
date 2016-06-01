@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en" ng-app="myApp">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
@@ -12,17 +12,20 @@
     <script src="https://angular-ui.github.io/ui-router/release/angular-ui-router.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.js"></script>
     <script src="/js/scripts.js"></script>
+    <!-- <script src="/app/app.module.js"></script>
+    <script src="/app/layout.directive.js"></script>
+    <script src="/app/portfolio.directive.js"></script>
+    <script src="/app/resume.directive.js"></script>
+    <script src="/app/about.directive.js"></script> -->
 
     <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" href="/css/style.css">
 
     <title>Bud Aminof</title>
+    <base href="/">
 </head>
-<base href="/">
 
-<body ng-app="myApp">
-
+<body>
     <div ui-view></div>
-
 </body>
 </html>
