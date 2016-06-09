@@ -1,0 +1,11 @@
+@import 'components/variables';
+
+body {
+  margin: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: $black;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+  color: $black;
+}

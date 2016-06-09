@@ -1,0 +1,53 @@
+@import 'components/variables';
+
+.btn-nav {
+  width: 100px;
+  float: right;
+
+  div {
+    margin-top: 10px;
+    width: 70px;
+    border-top: 1px solid $black;
+    transition: ease all .5s;
+  }
+}
+
+.btn-nav:hover {
+  cursor: pointer;
+
+  div {
+    transform: scaleX(1.2);
+    transition: ease all .5s;
+  }
+}
+
+.nav-aside {
+  position: absolute;
+  padding-left: 30px;
+  right: 0px;
+  top: 0px;
+  width: 480px;
+  background-color: $nav;
+  height: 100%;
+
+  .btn-nav {
+    margin-top: 20px;
+    margin-right: -20px;
+    font-size: 30px;
+  }
+  .btn-nav:hover {
+    cursor: pointer;
+  }
+
+  h3 {
+    margin: 60px 0px;
+  }
+
+}
+
+.nav-aside.ng-leave {
+  animation: slideOutRight .9s;
+}
+.nav-aside.ng-enter {
+  animation: slideInRight .9s;
+}
