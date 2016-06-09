@@ -30,5 +30,5 @@ gulp.task('js', function() {
 
 gulp.task('watch', function() {
   gulp.watch('./scss/**/*.scss', ['sass']);
-  gulp.watch(paths.javascript, ['js']);
+  gulp.watch('./app/**/*.js', ['js']);
 });

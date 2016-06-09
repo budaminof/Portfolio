@@ -1,4 +1,4 @@
-(function () {
+  (function () {
   'use strict';
 
     angular.module('myApp')
@@ -18,6 +18,7 @@
 
       function controller ($log) {
         var vm = this;
+        console.log('in this getting here????');
 
       }
 }());

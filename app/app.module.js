@@ -22,6 +22,7 @@
     $urlRouterProvider.otherwise("/");
 
     $stateProvider
+<<<<<<< HEAD
       .state('portfolio', {
         url:"/",
         templateUrl: "<my-portfolio></my-portfolio>",
@@ -36,5 +37,28 @@
      })
 
       }
+=======
+    .state('app', {
+      abstract: true,
+      template: "<my-layout></my-layout>",
+    })
+    .state('portfolio', {
+      parent: 'app',
+      url:"/",
+      template: "<my-portfolio></my-portfolio>",
+    })
+    .state('resume', {
+      parent: 'app',
+      url:"/resume",
+      template: "<my-resume></my-resume>",
+    })
+    .state('about', {
+      parent: 'app',
+      url:"/about",
+      template: "<my-about></my-about>",
+    })
+
+  }
+>>>>>>> states
 
 }());
