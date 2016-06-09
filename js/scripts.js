@@ -31,11 +31,6 @@
       url:"/",
       template: "<my-portfolio></my-portfolio>",
     })
-    .state('resume', {
-      parent: 'app',
-      url:"/resume",
-      template: "<my-resume></my-resume>",
-    })
     .state('about', {
       parent: 'app',
       url:"/about",
@@ -90,7 +85,12 @@
 
   function controller ($log) {
     var vm = this;
+    vm.showNav = false;
+    vm.toggleMenu = toggleMenu
 
+    function toggleMenu () {
+      return vm.showNav = !vm.showNav;
+    }
   }
 
 }());
@@ -115,7 +115,6 @@
 
       function controller ($log) {
         var vm = this;
-        console.log('in this getting here????');
 
       }
 }());

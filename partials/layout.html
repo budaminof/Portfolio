@@ -1,25 +1,25 @@
 <section>
-  <nav class="navbar-default">
-    <div class="container-fluid new-nav">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse-burger" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Bud Aminof</a>
-      </div>
 
-      <div class="collapse navbar-collapse" id="nav-collapse-burger">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a ui-sref="portfolio">Portfolio</a></li>
-          <li><a ui-sref="resume">resume</a></li>
-          <li><a ui-sref="about">About me</a></li>
-        </ul>
-      </div>
-    </div>
+  <nav ng-click="vm.toggleMenu()" class="btn-nav">
+    <div></div>
+    <div></div>
+    <div></div>
   </nav>
+
+  <aside ng-if="vm.showNav" class="nav-aside" >
+    <div ng-click="vm.toggleMenu()" class="btn-nav">
+      <span>&times;</span>
+    </div>
+    <h3><a ui-sref="portfolio">Projects</a></h3>
+    <h3>
+      <a href="https://drive.google.com/file/d/0BzNNOxUrUF-gRl85dUJLOWoxNVk/view?usp=sharing" target="_blank">
+        Resume
+      </a>
+    </h3>
+    <h4><a href="mailto:budaminof@gmail.com">budaminof@gmail.com</a></h4>
+    <h4><a href="https://github.com/budaminof" target="_blank">GitHub</a></h4>
+    <h4><a href="https://www.linkedin.com/in/budaminof" target="_blank">LinkedIn</a></h4>
+  </aside>
 
   <div ui-view></div>
 
