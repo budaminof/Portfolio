@@ -5,12 +5,13 @@
 }
 
 .btn-nav {
-  width: 100px;
+  width: 80px;
   float: right;
+  transition: ease all .5s;
 
   div {
     margin-top: 10px;
-    width: 70px;
+    width: 100%;
     border-top: 1px solid $black;
     transition: ease all .5s;
   }
@@ -18,11 +19,13 @@
 
 .btn-nav:hover {
   cursor: pointer;
+  width: 100px;
+  transition: ease all .5s;
 
-  div {
-    transform: scaleX(1.2);
-    transition: ease all .5s;
-  }
+    div {
+      border-top: 1px solid $nav;
+      transition: ease all .5s;
+    }
 }
 
 .nav-aside {
@@ -35,13 +38,15 @@
   height: 100%;
   z-index: 1000;
 
-  .btn-nav {
+  .nav-close {
+    width: 80px;
+    float: right;
     margin-top: 20px;
     margin-right: -20px;
     font-size: 30px;
   }
 
-  .btn-nav:hover {
+  .nav-close:hover {
     cursor: pointer;
   }
 
