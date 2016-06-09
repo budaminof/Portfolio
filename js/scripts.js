@@ -92,9 +92,10 @@
     var vm = this;
 
   }
+
 }());
 
-(function () {
+  (function () {
   'use strict';
 
     angular.module('myApp')
