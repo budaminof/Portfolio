@@ -4,11 +4,6 @@ var order = require('gulp-order');
 var concat = require('gulp-concat');
 var gutil = require('gulp-util');
 
-var paths = {
-  sass: ['/scss/*.scss'],
-  javascripts: ['/app/**/*.js'],
-};
-
 gulp.task('default', ['sass','js', 'watch']);
 
 gulp.task('sass', function(){
