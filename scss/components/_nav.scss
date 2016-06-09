@@ -1,5 +1,9 @@
 @import 'components/variables';
 
+.view {
+  float: left;
+}
+
 .btn-nav {
   width: 100px;
   float: right;
@@ -29,12 +33,14 @@
   width: 480px;
   background-color: $nav;
   height: 100%;
+  z-index: 1000;
 
   .btn-nav {
     margin-top: 20px;
     margin-right: -20px;
     font-size: 30px;
   }
+
   .btn-nav:hover {
     cursor: pointer;
   }
