@@ -1,13 +1,12 @@
 @import 'components/variables';
 
-.view {
-  float: left;
-}
-
 .btn-nav {
-  width: 80px;
-  float: right;
+  width: 60px;
+  right: 20px;
+  top: 20px;
+  position: fixed;
   transition: ease all .7s;
+  z-index: 1000;
 
   div {
     margin-top: 10px;
@@ -19,7 +18,7 @@
 
 .btn-nav:hover {
   cursor: pointer;
-  width: 95px;
+  width: 80px;
   transition: ease all .7s;
 
     div {
@@ -29,7 +28,7 @@
 }
 
 .nav-aside {
-  position: absolute;
+  position: fixed;
   padding-left: 30px;
   right: 0px;
   top: 0px;
@@ -62,8 +61,8 @@
 }
 
 .nav-aside.ng-leave {
-  animation: slideOutRight .9s;
+  animation: slideOutRight .7s;
 }
 .nav-aside.ng-enter {
-  animation: slideInRight .9s;
+  animation: slideInRight .7s;
 }
