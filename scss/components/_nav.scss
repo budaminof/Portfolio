@@ -7,24 +7,24 @@
 .btn-nav {
   width: 80px;
   float: right;
-  transition: ease all .5s;
+  transition: ease all .7s;
 
   div {
     margin-top: 10px;
     width: 100%;
     border-top: 1px solid $black;
-    transition: ease all .5s;
+    transition: ease all .7s;
   }
 }
 
 .btn-nav:hover {
   cursor: pointer;
-  width: 100px;
-  transition: ease all .5s;
+  width: 95px;
+  transition: ease all .7s;
 
     div {
       border-top: 1px solid $nav;
-      transition: ease all .5s;
+      transition: ease all .7s;
     }
 }
 
@@ -52,6 +52,11 @@
 
   h3 {
     margin: 60px 0px;
+    font-weight: lighter;
+  }
+
+  h4 {
+    font-weight: lighter;
   }
 
 }

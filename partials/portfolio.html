@@ -1,20 +1,26 @@
-<section class="main-portfolio">
+<section class="main-portfolio container">
   <div class="my-info col-md-6">
-    <h3>Bud Aminof</h3>
+    <h2>Bud Aminof</h2>
+    <h2><small>Full Stack Web Developer</small></h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quis officiis, labore sit aliquid unde, nihil animi dolores tenetur, alias odio ea deserunt itaque at architecto voluptas corporis soluta harum!
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quis officiis, labore sit aliquid unde, nihil animi dolores tenetur, alias odio ea deserunt itaque at architecto voluptas corporis soluta harum!
     </p>
-    <p class="text-right hebrew">
-      ואז הלכתי לטייל ולא ידעתי מה אני אמצע באמצע העולם הזה
-      אבל לפעמים אתה לא יודע מה תמצא באמצע הדרך.
-      ואז אתה מוצא דברים יפים
-      כי הכי מדהים- זה כשאת מפתיעה את עצמך
-      ואז הלכתי לטייל ולא ידעתי מה אני אמצע באמצע העולם הזה
-      אבל לפעמים אתה לא יודע מה תמצא באמצע הדרך.
-      ואז אתה מוצא דברים יפים
-      כי הכי מדהים- זה כשאת מפתיעה את עצמך
-
-    </p>
   </div>
+
+  <div class="row clearing">
+    <article class="col-xs-12 col-md-6" ng-repeat="project in vm.projects">
+      <a ng-shref="" class="thumbnail">
+        <img src="{{project.images[0]}}" alt="projectImg">
+        <div class="over-img">
+          <h3 ng-bind="project.title"></h3>
+          <p ng-bind="project.oneSentence"></p>
+          <ul>
+            <li ng-repeat="tech in project.tech"><span ng-bind="tech"></span></li>
+          </ul>
+        </div>
+      </a>
+    </article>
+  </div>
+
 </section>

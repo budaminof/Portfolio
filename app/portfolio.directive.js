@@ -14,10 +14,11 @@
         }
       }
 
-      controller.$inject = ["$log"]
+      controller.$inject = ["$log", "myProjects"]
 
-      function controller ($log) {
+      function controller ($log, myProjects) {
         var vm = this;
+        vm.projects = myProjects.projects
 
       }
 }());
