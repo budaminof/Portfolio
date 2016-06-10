@@ -2,13 +2,13 @@
   'use strict';
 
     angular.module('myApp')
-      .directive('myPortfolio', portfolioDirective);
+      .directive('myProject', projectDirective);
 
-      function portfolioDirective() {
+      function projectDirective() {
         return {
           restrict: 'E',
           scope: {},
-          templateUrl: '/partials/portfolio.html',
+          templateUrl: '/partials/project.html',
           controller: controller,
           controllerAs: 'vm'
         }
@@ -18,7 +18,8 @@
 
       function controller ($log, myProjects, $state) {
         var vm = this;
-        vm.projects = myProjects.projects
+        vm.statePath = $state.params.name;
+        console.log($state);
 
       }
 }());

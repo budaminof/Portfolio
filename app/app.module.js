@@ -31,10 +31,10 @@
       url:"/",
       template: "<my-portfolio></my-portfolio>",
     })
-    .state('about', {
+    .state('project', {
       parent: 'app',
-      url:"/about",
-      template: "<my-about></my-about>",
+      url:"/projects/:name",
+      template: "<my-project></my-project>",
     })
 
   }

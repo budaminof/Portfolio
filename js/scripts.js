@@ -31,38 +31,14 @@
       url:"/",
       template: "<my-portfolio></my-portfolio>",
     })
-    .state('about', {
+    .state('project', {
       parent: 'app',
-      url:"/about",
-      template: "<my-about></my-about>",
+      url:"/projects/:name",
+      template: "<my-project></my-project>",
     })
 
   }
 
-}());
-
-(function () {
-  'use strict';
-
-    angular.module('myApp')
-      .directive('myAbout', aboutDirective);
-
-      function aboutDirective() {
-        return {
-          restrict: 'E',
-          scope: {},
-          templateUrl: '/partials/about.html',
-          controller: controller,
-          controllerAs: 'vm'
-        }
-      }
-
-      controller.$inject = ["$log"]
-
-      function controller ($log) {
-        var vm = this;
-
-      }
 }());
 
 (function () {
@@ -111,11 +87,37 @@
         }
       }
 
-      controller.$inject = ["$log", "myProjects"]
+      controller.$inject = ["$log", "myProjects", "$state"]
 
-      function controller ($log, myProjects) {
+      function controller ($log, myProjects, $state) {
         var vm = this;
         vm.projects = myProjects.projects
+
+      }
+}());
+
+  (function () {
+  'use strict';
+
+    angular.module('myApp')
+      .directive('myProject', projectDirective);
+
+      function projectDirective() {
+        return {
+          restrict: 'E',
+          scope: {},
+          templateUrl: '/partials/project.html',
+          controller: controller,
+          controllerAs: 'vm'
+        }
+      }
+
+      controller.$inject = ["$log", "myProjects", "$state"]
+
+      function controller ($log, myProjects, $state) {
+        var vm = this;
+        vm.statePath = $state.params.name;
+        console.log($state);
 
       }
 }());
@@ -231,28 +233,4 @@
       }
 
 
-}());
-
-(function () {
-  'use strict';
-
-    angular.module('myApp')
-      .directive('myResume', resumeDirective);
-
-      function resumeDirective() {
-        return {
-          restrict: 'E',
-          scope: {},
-          templateUrl: '/partials/resume.html',
-          controller: controller,
-          controllerAs: 'vm'
-        }
-      }
-
-      controller.$inject = ["$log"]
-
-      function controller ($log) {
-        var vm = this;
-
-      }
 }());
