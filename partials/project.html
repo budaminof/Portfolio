@@ -1,4 +1,21 @@
-<section>
-  <h2>kjkjsd kjkjnkjbdfgnblkjfgndb ljlkjnlkjnfgdb</h2>
+<section class="single-project">
+  <h2 ng-bind="vm.project.title"></h2>
+  <h2>
+    <a href="{{vm.project.codeBase}}" target="_blank"><small>Code Base </small></a>
+    <small>|</small>
+    <a href="{{vm.project.siteUrl}}" target="_blank"><small> Live Site</small></a>
+  </h2>
+  <p ng-bind="vm.project.description"></p>
+  <h3>Tech:</h3>
+  <ul>
+    <li ng-repeat="tech in vm.project.tech"><span ng-bind="tech"></span></li>
+  </ul>
+
+    <div ng-repeat="image in vm.project.images">
+      <img src="{{image}}" alt="projectImage" class="col-xs-12 col-md-8 project-images">
+    </div>
+    <div ng-if="vm.project.imageMobil">
+
+    </div>
 
 </section>

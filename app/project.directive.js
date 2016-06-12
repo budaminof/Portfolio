@@ -18,8 +18,7 @@
 
       function controller ($log, myProjects, $state) {
         var vm = this;
-        vm.statePath = $state.params.name;
-        console.log($state);
-
+        vm.project = myProjects.getProject($state.params.name);
+        console.log(vm.project);
       }
 }());

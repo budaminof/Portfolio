@@ -116,9 +116,8 @@
 
       function controller ($log, myProjects, $state) {
         var vm = this;
-        vm.statePath = $state.params.name;
-        console.log($state);
-
+        vm.project = myProjects.getProject($state.params.name);
+        console.log(vm.project);
       }
 }());
 
@@ -141,8 +140,8 @@
               "http://i.imgur.com/zKewK0r.png",
               "http://i.imgur.com/E5aGsVL.png",
               "http://i.imgur.com/scpKxKw.png",
-              "http://i.imgur.com/sr64Dr4.png",
             ],
+            imageUr: "http://i.imgur.com/sr64Dr4.png",
             codeBase: "https://github.com/budaminof/HangTen",
             siteUrl: "https://hangten.herokuapp.com/",
             tech: [
@@ -162,8 +161,8 @@
               "http://i.imgur.com/zKewK0r.png",
               "http://i.imgur.com/E5aGsVL.png",
               "http://i.imgur.com/scpKxKw.png",
-              "http://i.imgur.com/sr64Dr4.png",
             ],
+            imageUr: "http://i.imgur.com/sr64Dr4.png",
             codeBase: "https://github.com/budaminof/HangTen",
             siteUrl: "https://hangten.herokuapp.com/",
             tech: [
@@ -182,12 +181,13 @@
             images : [
               "http://i.imgur.com/7TvYels.png",
               "http://i.imgur.com/8o8MFcb.png",
-              "http://i.imgur.com/dbSWOkJ.png"
             ],
+            imageUr: "http://i.imgur.com/dbSWOkJ.png",
             codeBase: "https://github.com/budaminof/WhoIsPlayingTonight",
             siteUrl: "https://whoisplayingtonight.firebaseapp.com/",
             tech: [
               "Google Maps API",
+              "Sound Cloud API",
               "Bandsintown API",
               "JavaScript",
               "jQuery",
@@ -203,7 +203,7 @@
               "http://i.imgur.com/1H4m3SX.png",
             ],
             codeBase: "https://github.com/budaminof/snack_Basket",
-            siteUrl: "http://gnosh.herokuapp.com/",
+            siteUrl: "https://gnosh.herokuapp.com/",
             tech: [
               "OAuth",
               "PostgreSQL",
@@ -225,9 +225,9 @@
         }
 
         function getProject (pathState) {
-          let project = _projects.map( item => {
-            if(item.pathState == pathState) return item
-          })
+          for (var i = 0; i < _projects.length; i++) {
+            if (_projects[i].pathState == pathState) return _projects[i];
+          }
         }
 
       }
