@@ -117,7 +117,7 @@
       function controller ($log, myProjects, $state) {
         var vm = this;
         vm.project = myProjects.getProject($state.params.name);
-        console.log(vm.project);
+
       }
 }());
 
@@ -141,7 +141,7 @@
               "http://i.imgur.com/E5aGsVL.png",
               "http://i.imgur.com/scpKxKw.png",
             ],
-            imageUr: "http://i.imgur.com/sr64Dr4.png",
+            imageMobile: "http://i.imgur.com/sr64Dr4.png",
             codeBase: "https://github.com/budaminof/HangTen",
             siteUrl: "https://hangten.herokuapp.com/",
             tech: [
@@ -155,14 +155,14 @@
           {
             title: "HangTen",
             pathState: "hangten",
-            oneSentence: "Surf spot recommendations in real-time",
+            oneSentence: "Good photo. Bad crash",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             images : [
               "http://i.imgur.com/zKewK0r.png",
               "http://i.imgur.com/E5aGsVL.png",
               "http://i.imgur.com/scpKxKw.png",
             ],
-            imageUr: "http://i.imgur.com/sr64Dr4.png",
+            imageMobile: "http://i.imgur.com/sr64Dr4.png",
             codeBase: "https://github.com/budaminof/HangTen",
             siteUrl: "https://hangten.herokuapp.com/",
             tech: [
@@ -171,26 +171,6 @@
               "PostgreSQL",
               "Express",
               "JavaScript"
-            ]
-          },
-          {
-            title: "Who is Playing Tonight",
-            pathState: "whosiplayingtonight",
-            oneSentence: "Search for live music you near you",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            images : [
-              "http://i.imgur.com/7TvYels.png",
-              "http://i.imgur.com/8o8MFcb.png",
-            ],
-            imageUr: "http://i.imgur.com/dbSWOkJ.png",
-            codeBase: "https://github.com/budaminof/WhoIsPlayingTonight",
-            siteUrl: "https://whoisplayingtonight.firebaseapp.com/",
-            tech: [
-              "Google Maps API",
-              "Sound Cloud API",
-              "Bandsintown API",
-              "JavaScript",
-              "jQuery",
             ]
           },
           {
@@ -213,6 +193,26 @@
               "jQuery",
               "SendGrid API",
               "Stripe API",
+            ]
+          },
+          {
+            title: "Who is Playing Tonight",
+            pathState: "whosiplayingtonight",
+            oneSentence: "Search for live music you near you",
+            description: "My first project.The app allows users to look for live music events, listen to music samples through Sound Cloud and get direction using Google Maps.",
+            images : [
+              "http://i.imgur.com/O0JrCFZ.png",
+              "http://i.imgur.com/tALngG4.png"
+            ],
+            imageMobile: "http://i.imgur.com/dbSWOkJ.png",
+            codeBase: "https://github.com/budaminof/WhoIsPlayingTonight",
+            siteUrl: "https://whoisplayingtonight.firebaseapp.com/",
+            tech: [
+              "Google Maps API",
+              "Sound Cloud API",
+              "Bandsintown API",
+              "JavaScript",
+              "jQuery",
             ]
           },
 

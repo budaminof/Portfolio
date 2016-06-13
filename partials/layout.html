@@ -16,9 +16,21 @@
         Resume
       </a>
     </h3>
-    <h4 ng-click="vm.toggleMenu()"><a href="mailto:budaminof@gmail.com">budaminof@gmail.com</a></h4>
-    <h4 ng-click="vm.toggleMenu()"><a href="https://github.com/budaminof" target="_blank">GitHub</a></h4>
-    <h4 ng-click="vm.toggleMenu()"><a href="https://www.linkedin.com/in/budaminof" target="_blank">LinkedIn</a></h4>
+    <a href="mailto:budaminof@gmail.com" ng-click="vm.toggleMenu()" class="social-icons">
+      <img src="css/email.png" alt="email">
+    </a>
+
+    <a href="https://github.com/budaminof" target="_blank" ng-click="vm.toggleMenu()" class="social-icons">
+      <img src="css/github.png" alt="github">
+    </a>
+
+    <a href="https://www.linkedin.com/in/budaminof" target="_blank" ng-click="vm.toggleMenu()" class="social-icons">
+      <img src="css/linkedin.png" alt="linkedin">
+    </a>
+
+    <a href="https://twitter.com/bud_aminof" target="_blank" ng-click="vm.toggleMenu()" class="social-icons">
+      <img src="css/twitter.png" alt="twitter">
+    </a>
   </aside>
 
   <div ui-view class="view"></div>

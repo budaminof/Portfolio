@@ -19,15 +19,13 @@
     left: 0;
     right: 0;
     background: $nav;
-    color: $white;
     margin: 20px 20px 40px 20px;
     padding-top: 20px;
-    text-align: center;
+    padding-left: 20px;
 
     visibility: hidden;
     opacity: 0;
     transition: ease all .5s;
-
   }
 
   article:hover .over-img {
@@ -38,15 +36,15 @@
   }
 
   ul {
+    margin-top: 40px;
     list-style: none;
-    padding: 20px;
+    padding: 0px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 
     li {
       display: inline;
-      margin: 10px;
+      margin-right: 15px;
       font-size: 15px;
       font-weight: lighter;
     }
@@ -69,4 +67,12 @@ h2:nth-child(1) {
 
 h2:nth-child(2) {
   margin-top: 0px;
+}
+
+.my-info {
+
+  h2 {
+    margin-bottom: 30px;
+  }
+
 }
