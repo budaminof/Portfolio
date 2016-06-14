@@ -83,8 +83,10 @@ h2:nth-child(2) {
 
 @media(max-width: 400px) {
 
-  article:hover .over-img {
-    visibility: hidden;
-
+.clearing{
+    article:hover .over-img {
+      visibility: hidden; 
+    }
   }
+
 }
