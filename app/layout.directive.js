@@ -19,11 +19,12 @@
   function controller ($log) {
     var vm = this;
     vm.showNav = false;
-    vm.toggleMenu = toggleMenu
+    vm.toggleMenu = toggleMenu;
 
     function toggleMenu () {
       return vm.showNav = !vm.showNav;
     }
+
   }
 
 }());

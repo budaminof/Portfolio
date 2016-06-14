@@ -67,7 +67,7 @@
     padding-right: 40px;
 
     img {
-      margin-top: 200px;
+      bottom: 20px;
     }
   }
 
@@ -78,4 +78,12 @@
 }
 .nav-aside.ng-enter {
   animation: slideInRight .7s;
+}
+
+@media(max-width: 400px) {
+  .nav-aside{
+    width: 100%;
+    padding-left: 30px;
+
+  }
 }

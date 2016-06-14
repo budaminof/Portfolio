@@ -62,11 +62,12 @@
   function controller ($log) {
     var vm = this;
     vm.showNav = false;
-    vm.toggleMenu = toggleMenu
+    vm.toggleMenu = toggleMenu;
 
     function toggleMenu () {
       return vm.showNav = !vm.showNav;
     }
+
   }
 
 }());
@@ -91,7 +92,7 @@
 
       function controller ($log, myProjects, $state) {
         var vm = this;
-        vm.projects = myProjects.projects
+        vm.projects = myProjects.projects;
 
       }
 }());
@@ -134,7 +135,7 @@
           {
             title: "Panic Button",
             pathState: "panicbutton",
-            oneSentence: "Do you understand what is happening class?",
+            oneSentence: "Do you undestand what is happening in this class?",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             images : [
               "http://i.imgur.com/zKewK0r.png",
@@ -224,7 +225,7 @@
 
         return {
           projects: _projects,
-          getProject: getProject
+          getProject: getProject,
         }
 
         function getProject (pathState) {

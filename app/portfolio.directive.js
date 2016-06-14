@@ -18,7 +18,7 @@
 
       function controller ($log, myProjects, $state) {
         var vm = this;
-        vm.projects = myProjects.projects
+        vm.projects = myProjects.projects;
 
       }
 }());
