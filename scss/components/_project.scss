@@ -25,3 +25,14 @@
   }
 
 }
+
+
+@media(max-width: 480px) {
+
+  .single-project {
+    h2:first-child {
+      margin-top: 50px;
+    }
+  }
+
+}
