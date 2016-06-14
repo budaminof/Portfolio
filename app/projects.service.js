@@ -57,7 +57,7 @@
             title: "Gnosh",
             pathState: "gnosh",
             oneSentence: "Order food baskets online",
-            description: "",
+            description: "Food basket delivered to your door. This app allows users to create their food basket and have them delivered to their homes. This was the first time I worked on a team. We used table relationship diagram to start, and learned how to adjust and pivote as needed. We learned that working until 2am is awesome- but not sustainable. I worked mainly on OAuth, database calls using Knex.",
             images : [
               "http://i.imgur.com/qq8UBKW.png",
               "http://i.imgur.com/1H4m3SX.png",
@@ -79,7 +79,7 @@
             title: "Who is Playing Tonight",
             pathState: "whosiplayingtonight",
             oneSentence: "Search for live music you near you",
-            description: "My first project.The app allows users to look for live music events, listen to music samples through Sound Cloud and get direction using Google Maps.",
+            description: "My first project. If I could only do everything that I wanted in those 4 days. This app solves a few problems when you try to decide where to go see live music tonight. Usually- you will have at least 3 tabs open: one or more for list on events, one to listen to music sample so you can decide if are you really going to listen to this for an hour and a half, and another tab for direction (if its a nice band but 40min drive and 25min looking for parking that is a-no-go for me). In this app- you can do all of this dance on one page. I think that this is pretty good for a first project.",
             images : [
               "http://i.imgur.com/O0JrCFZ.png",
               "http://i.imgur.com/tALngG4.png"

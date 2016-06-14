@@ -81,10 +81,10 @@ h2:nth-child(2) {
 
 }
 
-@media(max-width: 400px) {
+@media(max-width: 480px) {
 
 .clearing {
-    article:hover .over-img {
+    article:hover .over-img, article:active .over-img {
       visibility: hidden;
     }
   }
