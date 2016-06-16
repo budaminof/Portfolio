@@ -89,5 +89,10 @@
     width: 100%;
     padding-left: 30px;
 
+    .social-icons {
+      img {
+        bottom: 10px;
+      }
+    }
   }
 }
