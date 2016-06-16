@@ -8,8 +8,17 @@
     padding: 20px;
   }
 
+  img{
+    margin-bottom: 0px;
+    border: none;
+  }
+  a {
+    color: $white;
+  }
+
   a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover, .thumbnail {
     border-radius: 0px;
+    padding: 0px;
   }
 
   .over-img {
