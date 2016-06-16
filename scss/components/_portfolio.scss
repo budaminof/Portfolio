@@ -86,10 +86,12 @@ h2:nth-child(2) {
 
 }
 
-@media(max-width: 480px) {
+@media(max-width: 500px) {
+  .main-portfolio {
+    margin-top: 60px;
+  }
 
 .clearing {
-  margin-top: 60px;
     article:hover .over-img, article:active .over-img {
       visibility: hidden;
     }
