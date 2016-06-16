@@ -1,0 +1,13 @@
+@import 'components/variables';
+
+.about {
+  margin-top: 60px;
+  line-height: 25px;
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+  p:nth-child(5) {
+    margin-top: 50px;
+  }
+}

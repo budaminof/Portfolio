@@ -58,18 +58,21 @@
     font-weight: lighter;
   }
 
-  img {
-    height: 35px;
+  a {
+    color: $blackHover;
   }
-
 
   .social-icons {
     text-decoration: none;
     padding-right: 40px;
+    width: 100%;
 
     img {
-      bottom: 20px;
+      position: absolute;
+      height: 35px;
+      bottom: 100px;
     }
+
   }
 
 }

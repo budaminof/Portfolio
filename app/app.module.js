@@ -36,6 +36,11 @@
       url:"/projects/:name",
       template: "<my-project></my-project>",
     })
+    .state('about', {
+      parent: 'app',
+      url:"/about",
+      template: "<my-about></my-about>",
+    })
 
   }
 
