@@ -1,6 +1,7 @@
 @import 'components/variables';
 
 .about {
+  margin-top: 30px;
   line-height: 25px;
 
   ul {
@@ -23,6 +24,10 @@
 
 @media(max-width: 500px) {
   .about {
+    img {
+      margin: 0px;
+      padding: 0px;
+    }
     .me-image {
       height: auto;
     }
