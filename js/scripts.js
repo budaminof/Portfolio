@@ -162,18 +162,24 @@
       function projectsFactory ($log) {
         let _projects = [
           {
-            title: "Panic Button",
+            title: "Grasp",
             pathState: "panicbutton",
             oneSentence: "Do you undestand what is happening in this class?",
             description: "This app give the teacher a live visualization of the overall undestanding of the students in the class. After being a student at Galvanize we noticed a pattern when students will not speak up in class, and there for the teacher will not know that there is a need to go over some part of the materials. We realized that the problem is in the emberessment of thinking that you are the only one who doesn't undestand. Another problem is- that the teacher might have no idea where in the lecture did he loose his students. The mobile app- build with Ionic, give the students the ability to change thier status of undestanding while is class- and updates the graph of the teacher view, using Sockets.io in real-time. The teacher also have the ability to go back at previouse lecture and see the graph from the lectures. Working on this project was a great oppotunity to work with a great team and pair with different people every day.",
             images : [
-              "http://i.imgur.com/zKewK0r.png",
-              "http://i.imgur.com/E5aGsVL.png",
-              "http://i.imgur.com/scpKxKw.png",
+              "http://i.imgur.com/K13azQF.png",
+              "http://i.imgur.com/yysRk1E.png",
+              "http://i.imgur.com/c2z0Fou.png",
+              "http://i.imgur.com/E9vc0sL.png",
             ],
-            imageMobile: "http://i.imgur.com/sr64Dr4.png",
-            codeBase: "https://github.com/budaminof/HangTen",
-            siteUrl: "https://hangten.herokuapp.com/",
+            imageMobile: [
+              "http://i.imgur.com/FpEeXLf.png",
+              "http://i.imgur.com/T26qw7I.png", 
+              "http://i.imgur.com/Fnb93iX.png",
+              "http://i.imgur.com/mSWp0Pm.png",
+            ],
+            codeBase: "https://github.com/budaminof/panic-button",
+            siteUrl: "https://grasp-app.firebaseapp.com",
             tech: [
               "AngularJS",
               "Ionic",
@@ -195,7 +201,9 @@
               "http://i.imgur.com/E5aGsVL.png",
               "http://i.imgur.com/scpKxKw.png",
             ],
-            imageMobile: "http://i.imgur.com/sr64Dr4.png",
+            imageMobile: [
+              "http://i.imgur.com/sr64Dr4.png"
+            ],
             codeBase: "https://github.com/budaminof/HangTen",
             siteUrl: "https://hangten.herokuapp.com/",
             tech: [
@@ -237,7 +245,7 @@
               "http://i.imgur.com/O0JrCFZ.png",
               "http://i.imgur.com/tALngG4.png"
             ],
-            imageMobile: "http://i.imgur.com/dbSWOkJ.png",
+            imageMobile: ["http://i.imgur.com/dbSWOkJ.png"],
             codeBase: "https://github.com/budaminof/WhoIsPlayingTonight",
             siteUrl: "https://whoisplayingtonight.firebaseapp.com/",
             tech: [

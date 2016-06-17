@@ -16,10 +16,10 @@
   </div>
 
     <div ng-repeat="image in vm.project.images">
-      <img src="{{image}}" alt="projectImage" class="col-xs-12 col-md-9">
+      <img ng-src="{{image}}" alt="projectImage" class="col-xs-12 col-md-9">
     </div>
-    <div ng-if="vm.project.imageMobile">
-      <img src="{{vm.project.imageMobile}}" alt="mobileImage" class="col-xs-6 col-md-4 mobile">
+    <div ng-if="vm.project.imageMobile" ng-repeat="item in vm.project.imageMobile">
+      <img ng-src="{{item}}" alt="mobileImage" class="col-xs-10 col-md-4 mobile img-responsive">
     </div>
 
 </section>
