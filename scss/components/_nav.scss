@@ -61,18 +61,20 @@
   a {
     color: $blackHover;
   }
+  .social{
+    position: absolute;
+    bottom: 50px;
 
-  .social-icons {
-    text-decoration: none;
-    padding-right: 40px;
-    width: 100%;
+    .social-icons {
+      text-decoration: none;
+      padding-right: 40px;
+      width: 100%;
 
-    img {
-      position: absolute;
-      height: 35px;
-      bottom: 100px;
+      img {
+        height: 35px;
+      }
+      
     }
-
   }
 
 }
