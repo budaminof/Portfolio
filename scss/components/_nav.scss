@@ -82,15 +82,15 @@
 }
 
 @media(max-width: 500px) {
-  .nav-aside{
-    margin-top: 20px
-    h3 {
-      margin: 50px 0px;
-    }
-  }
+.top-nav-h3{
+  padding-top: 20px;
+}
   .nav-aside{
     width: 100%;
     padding-left: 30px;
+    h3 {
+      margin: 50px 0px;
+    }
 
     .social-icons {
       img {
