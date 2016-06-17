@@ -53,14 +53,10 @@
     margin: 100px 0px;
     font-weight: lighter;
   }
-
-  h4 {
-    font-weight: lighter;
-  }
-
   a {
     color: $blackHover;
   }
+  
   .social{
     position: absolute;
     bottom: 50px;
@@ -68,12 +64,11 @@
     .social-icons {
       text-decoration: none;
       padding-right: 40px;
-      width: 100%;
 
       img {
         height: 35px;
       }
-      
+
     }
   }
 
@@ -87,6 +82,11 @@
 }
 
 @media(max-width: 500px) {
+  .nav-aside{
+    h3 {
+      margin: 50px 0px;
+    }
+  }
   .nav-aside{
     width: 100%;
     padding-left: 30px;
