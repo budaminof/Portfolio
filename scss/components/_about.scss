@@ -21,3 +21,12 @@
     height: 427px;
   }
 }
+
+@media(max-width: 500px) {
+  .about {
+    .me-image {
+      height: auto;
+    }
+  }
+
+}
