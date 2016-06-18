@@ -195,8 +195,8 @@
           {
             title: "HangTen",
             pathState: "hangten",
-            oneSentence: "Good photo. Bad crash",
-            description: "Angular- Why did we learn jQuery?! This single-page application, allows users to login/signup, vote on articles, post articles and leave comments. We build this app following John Papa style guide, using component-based architecture and implementing the Revealing Module Pattern.",
+            oneSentence: "Surf Spots, single-page application",
+            description: "Angular- Why did we learn jQuery?! This single-page application, allows users to login/signup, vote on articles, post articles and leave comments. We build this app following John Papa style guide, using component-based architecture and implementing the Revealing Module Pattern. I created RESTful API server using Node.js and Express.",
             myExperience: "This project started its life as a great two weeks of pair programming, which became my favorite approach to coding.",
             images : [
               "images/hangten.png",
@@ -219,7 +219,7 @@
           {
             title: "Gnosh",
             pathState: "gnosh",
-            oneSentence: "Order food baskets online",
+            oneSentence: "Express application, Order food baskets",
             description: "This was my first group project, we built this app in 5 days and I was responsible for the back end. I used Passport for OAuth and authentication. I planned our database using entity relationship diagram and built SQL queries using Knex.",
             images : [
               "images/gnosh.png",
@@ -241,7 +241,7 @@
           {
             title: "Who is Playing Tonight",
             pathState: "whosiplayingtonight",
-            oneSentence: "Search for live music you near you",
+            oneSentence: "Front End application, Search for live music",
             description: "This app solves a few problems that happen when you want to see live music. Usually, you will have at least 3 tabs open: one or more for a list of events, one with a music sample so you can decide if are you really going to listen to this band  for an hour, and another tab for directions. In this app, you can do all of this dance on one page. I think that this is pretty good for a first project.",
             images : [
               "images/playing.png",

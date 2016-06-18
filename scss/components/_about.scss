@@ -3,18 +3,24 @@
 .about {
   margin-top: 30px;
   line-height: 25px;
+  h3 {
+    padding-bottom: 10px;
+  }
 
   ul {
     list-style: none;
     padding: 0px;
   }
   p:nth-child(5) {
-    margin-top: 50px;
+    // margin-top: 20px;
   }
 
   img {
     margin: 0px;
     padding: 0px;
+  }
+  .skills {
+    margin-top: 50px;
   }
 
   // .me-image{
