@@ -10,3 +10,28 @@ body {
 a, a:hover, a:active, a:visited, a:focus {
   color: $black;
 }
+
+.header {
+  font-size: 20px;
+}
+
+.top-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .home-link{
+    text-decoration: none;
+  }
+
+  .inner-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 35px;
+    font-weight: bold;
+
+    a:first-child{
+      margin-right: 20px;
+    }
+  }
+}

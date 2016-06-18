@@ -11,25 +11,29 @@
     list-style: none;
     padding: 0px;
   }
-  p:nth-child(5) {
-    // margin-top: 20px;
-  }
 
   img {
     margin: 0px;
     padding: 0px;
   }
   .skills {
-    margin-top: 50px;
+    margin-top: -10px;
+  }
+  aside {
+    padding: 0px;
   }
 
-  // .me-image{
-    // height: 427px;
-  // }
 }
 
 #crash {
   margin-top: 60px;
+}
+
+@media(max-width: 1000px) {
+  .skills {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
 }
 
 @media(max-width: 500px) {

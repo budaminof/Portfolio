@@ -6,20 +6,20 @@
     <a href="{{vm.project.siteUrl}}" target="_blank"><small> Live Site</small></a>
   </h2>
   <div class="row">
+  <div class="col-md-8">
     <p ng-bind="vm.project.description" class="col-xs-12 col-md-9"></p>
-  </div>
-  <div class="row">
     <p ng-bind="vm.project.myExperience" class="col-xs-12 col-md-9"></p>
   </div>
-  <div class="row">
+  <div class="col-md-4">
     <h4>Notable Tech:</h4>
     <ul>
       <li ng-repeat="tech in vm.project.tech"><span ng-bind="tech"></span></li>
     </ul>
   </div>
+  </div>
 
     <div ng-repeat="image in vm.project.images">
-      <img ng-src="{{image}}" alt="projectImage" class="col-xs-12 col-md-9">
+      <img ng-src="{{image}}" alt="projectImage" class="col-xs-12 col-md-11">
     </div>
     <div ng-if="vm.project.imageMobile" ng-repeat="item in vm.project.imageMobile">
       <img ng-src="{{item}}" alt="mobileImage" class="col-xs-10 col-md-4 mobile img-responsive">
