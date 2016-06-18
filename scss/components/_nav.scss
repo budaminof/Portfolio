@@ -1,6 +1,7 @@
 @import 'components/variables';
 
 .btn-nav {
+  display: none;
   width: 60px;
   right: 15px;
   top: 20px;
@@ -80,6 +81,12 @@
 }
 .nav-aside.ng-enter {
   animation: slideInRight .7s;
+}
+
+@media (max-width: 1000px) {
+  .btn-nav {
+    display: block;
+  }
 }
 
 @media(max-width: 500px) {

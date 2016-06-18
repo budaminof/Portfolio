@@ -35,3 +35,9 @@ a, a:hover, a:active, a:visited, a:focus {
     }
   }
 }
+
+@media (max-width: 1000px) {
+  .inner-nav {
+    display: none !important;
+  }
+}
