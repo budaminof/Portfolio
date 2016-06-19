@@ -2,14 +2,19 @@
 
 body {
   margin-top: 30px;
-  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-family:  'Montserrat', 'Open Sans', sans-serif;
   color: $black;
   padding-bottom: 40px;
 }
 
 p ul li {
-  font-weight: 200;
+  font-weight: 400;
   color: $grey;
+}
+
+.titles {
+  font-family: 'Josefin Sans', 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 a, a:hover, a:active, a:visited, a:focus {
@@ -44,8 +49,11 @@ a:visited, a:focus {
     margin-right: 40px;
     font-family: 'Josefin Sans', 'Montserrat', sans-serif;
     text-transform: uppercase;
-    a:first-child{
+    a{
       margin-right: 20px;
+    }
+    a:last-child {
+      margin-right: 0px;
     }
   }
 }
@@ -53,5 +61,11 @@ a:visited, a:focus {
 @media (max-width: 1000px) {
   .inner-nav {
     display: none !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    display: block;
   }
 }

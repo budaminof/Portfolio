@@ -1,5 +1,5 @@
 <section class="single-project col-md-12">
-  <h3 ng-bind="vm.project.title"></h3>
+  <h3 ng-bind="vm.project.title" class="titles"></h3>
   <h3>
     <a href="{{vm.project.codeBase}}" target="_blank"><small>Code Base </small></a>
     <small>|</small>
@@ -13,7 +13,7 @@
     </div>
 
     <div class="col-md-4">
-      <h4>Notable Tech:</h4>
+      <h4 class="titles">Notable Tech:</h4>
       <ul>
         <li ng-repeat="tech in vm.project.tech"><span ng-bind="tech"></span></li>
       </ul>
