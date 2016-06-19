@@ -16,6 +16,10 @@ a, a:hover, a:active, a:visited, a:focus {
   color: $black;
 }
 
+a, a:hover, a:active {
+  text-decoration: none;
+}
+
 .header {
   font-size: 20px;
 }
