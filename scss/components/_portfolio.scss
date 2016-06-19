@@ -1,6 +1,6 @@
 @import 'components/variables';
 
-.clearing {
+.main-images {
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 40px;
@@ -78,7 +78,7 @@ h2:nth-child(2) {
 }
 
 @media (max-width: 1000px) {
-  .clearing {
+  .main-images {
     img {
       height: auto;
       width: auto;
@@ -91,7 +91,7 @@ h2:nth-child(2) {
     margin-top: 30px;
   }
 
-.clearing {
+.main-images {
     article:hover .over-img, article:active .over-img {
       visibility: hidden;
     }
