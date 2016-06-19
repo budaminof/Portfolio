@@ -9,6 +9,11 @@
   }
 
 .single-project {
+  padding-left: 0px;
+  
+  .project-description {
+    margin-bottom: 20px;
+  }
   h4 {
     margin-top: 0px;
     text-indent: 15px;
@@ -18,7 +23,7 @@
     list-style: none;
     padding-top: 0px !important;
     padding: 17px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   p {
@@ -35,6 +40,9 @@
 
 @media(max-width: 1000px) {
 .single-project {
+  img {
+    margin-bottom: 20px;
+  }
     ul {
       padding-left: 0px !important;
     }
