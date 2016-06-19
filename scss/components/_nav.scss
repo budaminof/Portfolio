@@ -12,18 +12,17 @@
   div {
     margin-top: 10px;
     width: 100%;
-    border-top: 1px solid $black;
+    border-top: 2px solid $black;
     transition: ease all .7s;
   }
 }
 
 .btn-nav:hover {
   cursor: pointer;
-  width: 80px;
   transition: ease all .7s;
 
     div {
-      border-top: 1px solid $nav;
+      border-top: 2px solid $nav;
       transition: ease all .7s;
     }
 }

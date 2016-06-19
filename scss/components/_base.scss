@@ -1,21 +1,20 @@
 @import 'components/variables';
 
 body {
-  margin-top: 30px;
-  font-family:  'Montserrat', 'Open Sans', sans-serif;
+  margin-top: 20px;
+  font-family: 'Didact Gothic', 'Open Sans', sans-serif;
   color: $black;
   padding-bottom: 40px;
 }
 
 p ul li {
-  font-weight: 400;
   color: $grey;
 }
 
-.titles {
-  font-family: 'Josefin Sans', 'Montserrat', sans-serif;
-  font-weight: bold;
-}
+// .titles {
+//   font-family: 'Josefin Sans', 'Montserrat', sans-serif;
+//   font-weight: bold;
+// }
 
 a, a:hover, a:active, a:visited, a:focus {
   color: $black;
@@ -31,7 +30,6 @@ a:visited, a:focus {
 
 .top-header{
   font-family: 'Josefin Sans', 'Montserrat', sans-serif;
-  font-stretch: extra-expanded;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -59,6 +57,9 @@ a:visited, a:focus {
 }
 
 @media (max-width: 1000px) {
+  body {
+    margin-top: 12px;
+  }
   .inner-nav {
     display: none !important;
   }
@@ -67,5 +68,8 @@ a:visited, a:focus {
 @media (max-width: 500px) {
   .header {
     display: block;
+  }
+  .slash-stack {
+    display: none;
   }
 }
