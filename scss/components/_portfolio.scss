@@ -40,7 +40,6 @@
     visibility: visible;
     opacity: 0.9;
     transition: ease all .5s;
-
   }
 
   ul {
@@ -90,7 +89,7 @@ h2:nth-child(2) {
 
 .main-images {
   padding: 0px;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
     article:hover .over-img, article:active .over-img {
       visibility: hidden;
     }
