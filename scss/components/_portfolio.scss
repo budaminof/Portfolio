@@ -88,6 +88,11 @@ h2:nth-child(2) {
 @media(max-width: 500px) {
 
 .main-images {
+  padding-top: 10px;
+  
+  article {
+    padding: 20px 15px;
+  }
     article:hover .over-img, article:active .over-img {
       visibility: hidden;
     }
