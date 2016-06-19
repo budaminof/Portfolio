@@ -2,9 +2,14 @@
 
 body {
   margin-top: 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
   color: $black;
   padding-bottom: 40px;
+}
+
+p ul li {
+  font-weight: 200;
+  color: $grey;
 }
 
 a, a:hover, a:active, a:visited, a:focus {
@@ -16,6 +21,8 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .top-header{
+  font-family: 'Josefin Sans', 'Montserrat', sans-serif;
+  font-stretch: extra-expanded;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,7 +36,10 @@ a, a:hover, a:active, a:visited, a:focus {
     justify-content: flex-end;
     padding-top: 35px;
     font-weight: bold;
-
+    font-size: 15px;
+    margin-right: 40px;
+    font-family: 'Josefin Sans', 'Montserrat', sans-serif;
+    text-transform: uppercase;
     a:first-child{
       margin-right: 20px;
     }

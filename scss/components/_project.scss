@@ -9,9 +9,6 @@
   }
 
 .single-project {
-  a, a:hover, a:active, a:visited {
-    // text-decoration: none;
-  }
   h4 {
     margin-top: 0px;
     text-indent: 15px;
@@ -24,9 +21,6 @@
     margin-bottom: 50px;
   }
 
-  h2 {
-    margin-bottom: 30px;
-  }
   p {
     padding-left: 0px;
   }
@@ -35,6 +29,19 @@
     padding: 0px;
     margin-left: 15px;
     margin-right: 40px;
+  }
+
+}
+
+@media(max-width: 1000px) {
+.single-project {
+    ul {
+      padding-left: 0px !important;
+    }
+    #tech-list {
+      margin-top: 20px;
+      padding-left: 0px;
+    }
   }
 
 }

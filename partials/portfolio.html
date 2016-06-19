@@ -1,20 +1,6 @@
 <section class="main-portfolio" >
-  <div class="my-info col-md-8">
-    <!-- <h1>Bud Aminof <small>Full Stack Web Developer</small></h1> -->
-
-    <!-- <p>
-      Born in Israel, learned web development in Boulder, CO, studied Music in New York City, can also be found off the beaches of Mexico.
-    </p>
-    <p>
-      Finished the Full Stack Immersive Program at Galvanize, July 2016.
-    </p>
-    <p>
-      This is a selection of my projects, some personal, some build in a group. I feel as though every time I create a new project I learn something new.
-    </p> -->
-
-  </div>
-
-  <div class="row clearing">
+  
+  <div class="row clearing col-md-12">
     <article class="col-xs-12 col-md-6" ng-repeat="project in vm.projects" >
       <a ui-sref="project({name: project.pathState})">
         <img src="{{project.images[0]}}" alt="projectImg" class="img-responsive">
