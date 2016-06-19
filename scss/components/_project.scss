@@ -10,7 +10,7 @@
 
 .single-project {
   padding-left: 0px;
-  
+
   .project-description {
     margin-bottom: 20px;
   }
@@ -58,6 +58,7 @@
 @media(max-width: 500px) {
 
   .single-project {
+    padding-right: 0px;
     h2:first-child {
       margin-top: 30px;
     }

@@ -7,17 +7,17 @@
   </h3>
 
   <div class="row project-description">
-  <div class="col-md-8">
-    <p ng-bind="vm.project.description" class="col-xs-12 col-md-9"></p>
-    <p ng-bind="vm.project.myExperience" class="col-xs-12 col-md-9"></p>
-  </div>
+    <div class="col-md-8">
+      <p ng-bind="vm.project.description" class="col-xs-12 col-md-9"></p>
+      <p ng-bind="vm.project.myExperience" class="col-xs-12 col-md-9"></p>
+    </div>
 
-  <div class="col-md-4">
-    <h4>Notable Tech:</h4>
-    <ul>
-      <li ng-repeat="tech in vm.project.tech"><span ng-bind="tech"></span></li>
-    </ul>
-  </div>
+    <div class="col-md-4">
+      <h4>Notable Tech:</h4>
+      <ul>
+        <li ng-repeat="tech in vm.project.tech"><span ng-bind="tech"></span></li>
+      </ul>
+    </div>
   </div>
 
   <div ng-repeat="image in vm.project.images">
