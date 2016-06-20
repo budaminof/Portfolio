@@ -4,6 +4,7 @@
   padding: 30px 0px;
 }
   img {
+    border: 1px solid $img-border;
     margin-bottom: 60px;
     padding: 0px !important;
   }
@@ -31,7 +32,6 @@
     padding-left: 0px;
   }
   .mobile{
-    border: 1px solid $img-border;
     padding: 0px;
     margin-left: 15px;
     margin-right: 40px;

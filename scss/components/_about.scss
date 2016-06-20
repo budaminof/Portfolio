@@ -1,7 +1,7 @@
 @import 'components/variables';
 
 .about {
-  margin-top: 30px;
+  // margin-top: 10px;
   padding: 0px;
   h4 {
     color: $black;
@@ -16,6 +16,7 @@
   }
 
   img {
+    border: none;
     margin: 0px;
     padding: 0px;
   }
@@ -57,6 +58,7 @@
 
 @media(max-width: 500px) {
   .about {
+    margin-top: auto;
     img {
       margin: 0px;
       padding: 0px;
