@@ -11,10 +11,6 @@ a, a:hover, a:active, a:visited, a:focus {
   color: $black;
 }
 
-a:visited, a:focus {
-  text-decoration: none;
-}
-
 .header {
   font-size: 20px;
 }
@@ -46,6 +42,10 @@ a:visited, a:focus {
       margin-right: 0px;
     }
   }
+}
+
+.active {
+  text-decoration: underline;
 }
 
 .copy-rights {

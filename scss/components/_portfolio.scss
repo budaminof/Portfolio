@@ -11,7 +11,7 @@
 
   img{
     margin-bottom: 0px;
-    border: none;
+    border: 1px solid $img-border;
     height: 300px;
     width: 544px;
   }
@@ -89,7 +89,7 @@ h2:nth-child(2) {
 
 .main-images {
   padding-top: 10px;
-  
+
   article {
     padding: 20px 15px;
   }

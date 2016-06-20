@@ -162,6 +162,30 @@
       function projectsFactory ($log) {
         var _projects = [
           {
+            title: "HangTen",
+            pathState: "hangten",
+            oneSentence: "Surf Spots, single-page application",
+            description: "Angular- Why did we learn jQuery?! This single-page application, allows users to login/signup, vote on articles, post articles and leave comments. We build this app following John Papa style guide, using component-based architecture and implementing the Revealing Module Pattern. I created RESTful API server using Node.js and Express.",
+            myExperience: "This project started its life as a great two weeks of pair programming, which became my favorite approach to coding.",
+            images : [
+              "images/hangten.png",
+              "images/hangten3.png",
+              "images/hangten2.png",
+            ],
+            imageMobile: [
+              "images/hangtenMobile.png"
+            ],
+            codeBase: "https://github.com/budaminof/HangTen",
+            siteUrl: "https://hangten.herokuapp.com/",
+            tech: [
+              "AngularJS",
+              "JSON Web Token",
+              "PostgreSQL",
+              "Express",
+              "JavaScript"
+            ]
+          },
+          {
             title: "Grasp",
             pathState: "grasp",
             oneSentence: "Do you undestand what is happening in this class?",
@@ -190,30 +214,6 @@
               "Hyper Media API",
               "PostgreSQL",
               "Express",
-            ]
-          },
-          {
-            title: "HangTen",
-            pathState: "hangten",
-            oneSentence: "Surf Spots, single-page application",
-            description: "Angular- Why did we learn jQuery?! This single-page application, allows users to login/signup, vote on articles, post articles and leave comments. We build this app following John Papa style guide, using component-based architecture and implementing the Revealing Module Pattern. I created RESTful API server using Node.js and Express.",
-            myExperience: "This project started its life as a great two weeks of pair programming, which became my favorite approach to coding.",
-            images : [
-              "images/hangten.png",
-              "images/hangten3.png",
-              "images/hangten2.png",
-            ],
-            imageMobile: [
-              "images/hangtenMobile.png"
-            ],
-            codeBase: "https://github.com/budaminof/HangTen",
-            siteUrl: "https://hangten.herokuapp.com/",
-            tech: [
-              "AngularJS",
-              "JSON Web Token",
-              "PostgreSQL",
-              "Express",
-              "JavaScript"
             ]
           },
           {
