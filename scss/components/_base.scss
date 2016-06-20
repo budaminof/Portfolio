@@ -3,18 +3,9 @@
 body {
   margin-top: 20px;
   font-family: 'Didact Gothic', 'Open Sans', sans-serif;
-  color: $black;
+  color: $grey;
   padding-bottom: 40px;
 }
-
-p ul li {
-  color: $grey;
-}
-
-// .titles {
-//   font-family: 'Josefin Sans', 'Montserrat', sans-serif;
-//   font-weight: bold;
-// }
 
 a, a:hover, a:active, a:visited, a:focus {
   color: $black;
@@ -33,6 +24,7 @@ a:visited, a:focus {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: $black;
   .home-link{
     text-decoration: none;
   }
@@ -54,6 +46,11 @@ a:visited, a:focus {
       margin-right: 0px;
     }
   }
+}
+
+.copy-rights {
+  display: block;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 1000px) {

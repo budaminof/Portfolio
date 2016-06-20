@@ -14,15 +14,16 @@
   .project-description {
     margin-bottom: 20px;
   }
-  h4 {
+
+  h4, h3, small {
     margin-top: 0px;
-    text-indent: 15px;
+    color: $black;
   }
 
   ul {
     list-style: none;
     padding-top: 0px !important;
-    padding: 17px;
+    padding: 0px;
     margin-bottom: 20px;
   }
 
@@ -56,7 +57,6 @@
 
 
 @media(max-width: 500px) {
-
   .single-project {
     padding-right: 0px;
     h2:first-child {
