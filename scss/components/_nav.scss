@@ -12,7 +12,7 @@
   div {
     margin-top: 10px;
     width: 100%;
-    border-top: 2px solid $black;
+    border-top: 1px solid $black;
     transition: ease all .7s;
   }
 }
@@ -22,7 +22,7 @@
   transition: ease all .7s;
 
     div {
-      border-top: 2px solid $nav;
+      border-top: 1px solid $nav;
       transition: ease all .7s;
     }
 }
