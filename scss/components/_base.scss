@@ -20,8 +20,10 @@ a, a:hover, a:active, a:visited, a:focus {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: $black;
   margin-bottom: 10px;
+  h1, a, span {
+    color: $blackHeader;
+  }
   .home-link{
     text-decoration: none;
   }
