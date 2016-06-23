@@ -58,7 +58,7 @@
               "Sockets.io",
               "Google Charts",
               "JSON Web Token",
-              "Hyper Media API",
+              "Hypermedia API",
               "PostgreSQL",
               "Express",
             ]
