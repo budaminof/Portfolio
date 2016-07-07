@@ -9,6 +9,32 @@
       function projectsFactory ($log) {
         var _projects = [
           {
+            title: "Pomodoro",
+            pathState: "pomodoro",
+            oneSentence: "Time management Ionic app, accessing the phone using Cordova",
+            description: "This app is based on the time management pomodoro method developed by Francesco Cirillo in the late 1980s. During my time at Galvanize I found myself working on tasks without taking any breaks for hours. I was introduced to the pomodoro method by one of my teachers, but I knew I needed something extra to force me to leave my chair.",
+            myExperience: "Using Cordova I was able to access the accelerometer of the phone, and make the phone vibrate until the user move and step around the room. The Pomodoro app keeps track of how many pomodoros have you accomplished and display the last week in a graph- using Angular Charts.",
+            images : [
+              'images/pomodoro7.png',
+            ],
+            imageMobile: [
+              'images/pomodoro1.png',
+              'images/pomodoro2.png',
+              'images/pomodoro3.png',
+              'images/pomodoro4.png',
+              'images/pomodoro5.png',
+              'images/pomodoro6.png',
+            ],
+            codeBase: "https://github.com/budaminof/pomodoro-v4",
+            tech: [
+              "Ionic",
+              "Cordova",
+              "AngularJS",
+              "Node.JS",
+              "Knex.JS"
+            ],
+          },
+          {
             title: "HangTen",
             pathState: "hangten",
             oneSentence: "Surf Spots, single-page application",

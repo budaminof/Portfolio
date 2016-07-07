@@ -20,7 +20,7 @@
     </div>
   </div>
 
-  <div ng-repeat="image in vm.project.images">
+  <div ng-repeat="image in vm.project.images" ng-if="vm.show">
     <img ng-src="{{image}}" alt="projectImage" class="col-xs-12 col-md-12 img-responsive">
   </div>
   <div ng-if="vm.project.imageMobile" ng-repeat="item in vm.project.imageMobile">

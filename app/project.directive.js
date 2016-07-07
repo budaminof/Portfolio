@@ -18,7 +18,10 @@
 
       function controller ($log, myProjects, $state) {
         var vm = this;
+        vm.show = true;
         vm.project = myProjects.getProject($state.params.name);
-
+        if(vm.project.pathState == "pomodoro") {
+          vm.show = false;
+        }
       }
 }());
