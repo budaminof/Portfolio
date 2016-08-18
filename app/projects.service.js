@@ -26,6 +26,7 @@
               'images/pomodoro6.png',
             ],
             codeBase: "https://github.com/budaminof/pomodoro-v4",
+            siteUrl: "https://budaminof.com/projects/pomodoro",
             tech: [
               "Ionic",
               "Cordova",
