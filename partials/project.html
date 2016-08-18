@@ -2,8 +2,8 @@
   <h3 ng-bind="vm.project.title" class="titles"></h3>
   <h3>
     <a href="{{vm.project.codeBase}}" target="_blank"><small>Code Base </small></a>
-    <small>|</small>
-    <a href="{{vm.project.siteUrl}}" target="_blank"><small> Live Site</small></a>
+    <small ng-show="vm.show">|</small>
+    <a href="{{vm.project.siteUrl}}" target="_blank" ng-show="vm.show"><small> Live Site</small></a>
   </h3>
 
   <div class="row project-description">
