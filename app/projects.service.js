@@ -99,6 +99,9 @@
             images : [
               "images/gnosh.png",
               "images/gnosh2.png",
+              "images/gnosh3.png",
+              "images/gnosh4.png",
+              "images/gnosh5.png"
             ],
             codeBase: "https://github.com/budaminof/snack_Basket",
             siteUrl: "https://gnosh.herokuapp.com/",
