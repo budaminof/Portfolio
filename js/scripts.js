@@ -177,7 +177,7 @@
               'images/pomodoro1.png',
               'images/pomodoro2.png',
               'images/pomodoro3.png',
-              // 'images/pomodoro4.png',
+              'images/pomodoro4.png',
               'images/pomodoro5.png',
               'images/pomodoro6.png',
             ],
