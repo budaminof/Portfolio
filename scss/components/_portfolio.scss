@@ -4,11 +4,13 @@
   visibility: hidden;
 }
 
-.fadeIn, .fadeInRight, .fadeInLeft {
+.fadeIn {
   animation: fadeIn 1s;
 }
 
-
+.fadeInUp {
+  animation: fadeInUp 1s;
+}
 
 .main-images {
   padding-left: 0px;
