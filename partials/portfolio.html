@@ -3,7 +3,7 @@
   <div class="row main-images col-md-12">
     <article class="col-xs-12 col-md-6" ng-repeat="project in vm.projects" >
       <a ui-sref="project({name: project.pathState})">
-        <img src="{{project.images[0]}}" alt="projectImg" class="img-responsive">
+        <img ng-src="{{project.images[0]}}" alt="projectImg" class="img-responsive">
         <div class="over-img">
           <h3 ng-bind="project.title"></h3>
           <p ng-bind="project.oneSentence"></p>
