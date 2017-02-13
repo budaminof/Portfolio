@@ -21,10 +21,16 @@
   </div>
 
   <div ng-repeat="image in vm.project.images" ng-if="vm.show">
-    <img ng-src="{{image}}" alt="projectImage" class="col-xs-12 col-md-12 img-responsive">
+    <img ng-src="{{image}}" alt="projectImage"
+      class="col-xs-12 col-md-12 img-responsive not-visible"
+      when-visible="vm.animateElementIn"
+      when-not-visible="vm.animateElementOut" >
   </div>
   <div ng-if="vm.project.imageMobile" ng-repeat="item in vm.project.imageMobile">
-    <img ng-src="{{item}}" alt="mobileImage" class="col-xs-6 col-md-4 mobile img-responsive">
+    <img ng-src="{{item}}" alt="mobileImage"
+    class="col-xs-12 col-md-4 mobile img-responsive not-visible"
+    when-visible="vm.animateElementIn"
+    when-not-visible="vm.animateElementOut" >
   </div>
 
 </section>

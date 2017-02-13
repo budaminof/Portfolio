@@ -1,9 +1,18 @@
 @import 'components/variables';
 
+.not-visible {
+  visibility: hidden;
+}
+
+.fadeIn, .fadeInRight, .fadeInLeft {
+  animation: fadeIn 1s;
+}
+
+
+
 .main-images {
   padding-left: 0px;
   padding-right: 0px;
-  // padding-top: 20px;
 
   article {
     padding: 20px;

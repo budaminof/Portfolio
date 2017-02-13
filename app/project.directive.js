@@ -23,5 +23,15 @@
         if(vm.project.pathState == "pomodoro") {
           vm.show = false;
         }
+
+        vm.animateElementIn = function($el) {
+          $el.removeClass('not-visible');
+          $el.addClass('animated fadeIn');
+        };
+
+        vm.animateElementOut = function($el) {
+          $el.addClass('not-visible');
+          $el.removeClass('animated fadeIn');
+        };
       }
 }());

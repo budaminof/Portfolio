@@ -14,11 +14,20 @@
         }
       }
 
-      controller.$inject = ["$log", "myProjects", "$state"]
+      controller.$inject = ["$log", "myProjects", "$state"];
 
       function controller ($log, myProjects, $state) {
         var vm = this;
         vm.projects = myProjects.projects;
 
+        vm.animateElementIn = function($el) {
+          $el.removeClass('not-visible');
+          $el.addClass('animated fadeIn');
+        };
+
+        vm.animateElementOut = function($el) {
+          $el.addClass('not-visible');
+          $el.removeClass('animated fadeIn');
+        };
       }
 }());

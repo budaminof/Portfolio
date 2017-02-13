@@ -4,6 +4,7 @@
   var dependecies = [
     'ngAnimate',
     'ui.router',
+    'angular-scroll-animate'
   ]
 
   angular.module('myApp', dependecies)
