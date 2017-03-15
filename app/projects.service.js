@@ -13,7 +13,7 @@
             pathState: "howtwitterfeels",
             oneSentence: "Ask the Twitterverse how it feels about _____",
             description: "How do you determine in real time how people feel about a particular topic? You ask Twitter of course.",
-            myExperience: "This Redux app uses live data from the Twitter API, and passes it through the IBM API for sentiment analysis. By using Sockets.io to connect to the global sentiment data the radar graph for simplistic visualisation of the Twitterspheres mood is actually live and moving.",
+            myExperience: "This Redux app uses live data from the Twitter API, and passes it through the IBM API for sentiment analysis. By using Sockets.io to connect to the global sentiment data the radar graph for simplistic visualisation of the Twittersphere's mood is actually live and moving.",
             images : [
               'images/twitter1.png',
               'images/twitter3.png',
