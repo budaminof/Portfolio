@@ -495,7 +495,7 @@ angular.module('angular-scroll-animate', []).directive('whenVisible', ['$documen
             pathState: "whosiplayingtonight",
             oneSentence: "Search and listen to live music near you tonight",
             description: "WPT solves the timeless problem of determining not only what artists are playing,  but what do they sound like, is it sold out, how far is it from me now and how do I get there?",
-            myExperience: "My debut app used Google Map Api, Sound Cloud API, Javascript and jQuery.",
+            myExperience: "My debut app used Google Map API, Sound Cloud API, Javascript and jQuery.",
             images : [
               "images/playing.png",
               "images/playing2.png",
