@@ -9,11 +9,35 @@
       function projectsFactory ($log) {
         var _projects = [
           {
+            title: "How Twitter Feels",
+            pathState: "howtwitterfeels",
+            oneSentence: "Ask the Twitterverse how it feels about _____",
+            description: "How do you determine in real time how people feel about a particular topic? You ask Twitter of course.",
+            myExperience: "This Redux app uses live data from the Twitter API, and passes it through the IBM API for sentiment analysis. By using Sockets.io to connect to the global sentiment data the radar graph for simplistic visualisation of the Twitterspheres mood is actually live and moving.",
+            images : [
+              'images/twitter1.png',
+              'images/twitter3.png',
+            ],
+            imageMobile: [
+              'images/twitterMobile1.jpg',
+              'images/twitterMobile2.jpg',
+            ],
+            codeBase: "https://github.com/budaminof/How-Twitter-Feels",
+            siteUrl: "https://howtwitterfeels.herokuapp.com/",
+            tech: [
+              "React",
+              "Redux",
+              "Sockets.io",
+              "Node.JS",
+              "Webpack"
+            ],
+          },
+          {
             title: "Pomodoro",
             pathState: "pomodoro",
-            oneSentence: "Time management Ionic app, accessing the phone using Cordova",
-            description: "This app is based on the time management pomodoro method developed by Francesco Cirillo in the late 1980s. During my time at Galvanize I found myself working on tasks without taking any breaks for hours. I was introduced to the pomodoro method by one of my teachers, but I knew I needed something extra to force me to leave my chair.",
-            myExperience: "Using Cordova I was able to access the accelerometer of the phone, and make the phone vibrate until the user move and step around the room. The Pomodoro app keeps track of how many pomodoros have you accomplished and display the last week in a graph- using Angular Charts.",
+            oneSentence: "Your personal productivity nag",
+            description: "This productivity app is based on the Pomodoro Technique of breaking one’s work day into twenty five minute intervals punctuated with short, timed breaks. I built this app to “nag” me into the Pomodoro Technique to improve my productivity and health – it works!",
+            myExperience: "Using Cordova I was able to access the accelerometer of the phone and make the phone vibrate until the user moves more than five meters – the international standard for daily sanity. This Pomodoro app tracks how many intervals a user completed and displays the previous seven days in graph format using Angular Charts.",
             images : [
               'images/steps-fullscreen.png',
             ],
@@ -38,9 +62,9 @@
           {
             title: "HangTen",
             pathState: "hangten",
-            oneSentence: "Surf Spots, single-page application",
-            description: "Angular- Why did we learn jQuery?! This single-page application, allows users to login/signup, vote on articles, post articles and leave comments. We build this app following John Papa style guide, using component-based architecture and implementing the Revealing Module Pattern. I created RESTful API server using Node.js and Express.",
-            myExperience: "This project started its life as a great two weeks of pair programming, which became my favorite approach to coding.",
+            oneSentence: "Crowd-powered surf wisdom",
+            description: "A great surf day is all about having the right data. I selfishly built this app to lever some crowd wisdom to optimise for tides, winds, pollution, and beach access in my favorite surf towns.",
+            myExperience: "This Single Page Application, allows users to login/register, vote on articles, post articles and leave comments. I built this app following the John Papa style guide, using component-based architecture and implementing the Revealing Module Pattern. I created the RESTful API server using Node.js and Express.",
             images : [
               "images/hangten.png",
               "images/hangten3.png",
@@ -62,9 +86,10 @@
           {
             title: "Grasp",
             pathState: "grasp",
-            oneSentence: "Do you undestand what is happening in this class?",
-            description: "This is an app for students and teachers. Grasp gives teachers a live visualization of the overall level of student understanding, and gives the students the ability to anonymously communicate their level of understanding with the teacher in real-time. With this real-time data teachers can gauge exactly where in the lecture students struggle. The mobile app, build with Ionic, lets students change the status of their comprehension during a lecture, which updates a graph in the teacher’s view, using Sockets.io. The teacher also has the ability to review graphs from previous lectures. If you want to login and look around, user name: 'user2@example.com', password: 'password'.",
-            myExperience: "We developed this app over one week using Agile methodologies adapted to fit with our shortened time frame. Starting our day with stand-up, going through iteration meetings and staying focus on user-stories helped us stay on top of every issue, while each pair worked on a different part of the app.",
+            oneSentence: "Who understands what’s happening in this class?",
+            description: "Grasp is a mobile app that allows students to anonymously communicate their lesson comprehension in real-time and visually communicates that aggregated information to the teacher to alert them when students are falling behind. The mobile app, built with Ionic, lets students change the status of their comprehension during a lecture, which updates a graph in the teacher’s view, using Sockets.io. The teacher also has the ability to review graphs from previous lectures.",
+            myExperience: "My team at Galvanize developed this app in a five day sprint using Agile methodologies. We started everyday with a stand-up, went through iteration meetings and stayed focused on user-stories to help us stay on top of every issue.",
+            access: "Access here: user2@example.com/password.",
             images : [
               "images/grasp.png",
               "images/grasp2.png",
@@ -94,8 +119,9 @@
           {
             title: "Gnosh",
             pathState: "gnosh",
-            oneSentence: "Express application, Order food baskets",
-            description: "This was my first group project, we built this app in 5 days and I was responsible for the back end. I used Passport for OAuth and authentication. I planned our database using entity relationship diagram and built SQL queries using Knex.",
+            oneSentence: "Easy snack ordering for the dietarily challenged",
+            description: "Gnosh is the app for people with dietary restrictions who want to order healthy snack baskets online. Users can assemble custom snack baskets based on tags related to major food allergies and diets du jour, login/register and save these baskets for future ordering.",
+            myExperience: "My role in this group project was planning our database using entity relationship diagram and building SQL queries using Knex.",
             images : [
               "images/gnosh.png",
               "images/gnosh2.png",
@@ -119,8 +145,9 @@
           {
             title: "Who is Playing Tonight",
             pathState: "whosiplayingtonight",
-            oneSentence: "Front End application, Search for live music",
-            description: "This app solves a few problems that happen when you want to see live music. Usually, you will have at least 3 tabs open: one or more for a list of events, one with a music sample so you can decide if are you really going to listen to this band  for an hour, and another tab for directions. In this app, you can do all of this dance on one page. I think that this is pretty good for a first project.",
+            oneSentence: "Search and listen to live music near you tonight",
+            description: "WPT solves the timeless problem of determining not only what artists are playing,  but what do they sound like, is it sold out, how far is it from me now and how do I get there?",
+            myExperience: "My debut app used Google Map Api, Sound Cloud API, Javascript and jQuery.",
             images : [
               "images/playing.png",
               "images/playing2.png",
