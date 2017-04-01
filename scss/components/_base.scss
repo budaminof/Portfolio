@@ -15,7 +15,7 @@ a, a:hover, a:active, a:visited, a:focus {
   font-size: 20px;
 }
 
-.top-header{
+.top-header {
   font-family: 'Josefin Sans', 'Montserrat', sans-serif;
   display: flex;
   flex-direction: row;
@@ -28,11 +28,16 @@ a, a:hover, a:active, a:visited, a:focus {
     text-decoration: none;
   }
 
+  .name {
+    font-size: 7vh;
+  }
+
   .inner-nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-top: 35px;
+    // padding-top: 35px;
+    padding-top: 6vh;
     font-weight: bold;
     font-size: 15px;
     margin-right: 40px;
@@ -61,6 +66,12 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 @media (max-width: 500px) {
+  .home-link {
+    .name {
+      font-size: 6vh;
+    }
+  }
+
   .header {
     display: block;
     padding-bottom: 10px;

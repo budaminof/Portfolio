@@ -43,6 +43,7 @@
     margin-top: 20px;
     margin-right: -20px;
     font-size: 30px;
+    color: $blackHover;
   }
 
   .nav-close:hover {
@@ -50,16 +51,18 @@
   }
 
   h3 {
-    margin: 100px 0px;
+    // margin: 100px 0px;
+    margin: 10vh 0vh;
     font-weight: lighter;
   }
   a {
     color: $blackHover;
   }
 
-  .social{
+  .social {
     position: absolute;
-    bottom: 50px;
+    // bottom: 50px;
+    bottom: 1vh;
     color: $black;
 
     .social-icons {
